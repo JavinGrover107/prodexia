@@ -1,58 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Successful | Prodexia</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-    </style>
+<title>Download Your Ebook</title>
 </head>
-<body class="bg-gray-900 text-gray-100 antialiased flex flex-col min-h-screen">
 
-    <nav class="border-b border-gray-800 bg-gray-900 w-full py-4">
-        <div class="max-w-6xl mx-auto px-4 flex justify-center items-center">
-            <a href="index.html" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-400">
-                Prodexia
-            </a> [cite: 3]
-        </div>
-    </nav>
+<body style="font-family:sans-serif;text-align:center;padding:80px">
 
-    <main class="flex-grow flex items-center justify-center p-4">
-        <div class="max-w-md w-full bg-gray-800 p-8 rounded-3xl border border-gray-700 shadow-2xl shadow-purple-900/20 text-center">
-            <div class="w-20 h-20 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-6 border border-green-500/30">
-                <span class="text-4xl">🎉</span>
-            </div>
-            
-            <h1 class="text-3xl font-bold text-white mb-4">Payment Successful</h1>
-            <p class="text-gray-300 mb-8">Thank you for purchasing <span class="font-semibold text-purple-300">AI Creator Playbook</span>. Your transaction is complete.</p>
-            
-            <a href="/files/AI%20Creator%20Playbook.pdf" id="downloadBtn" download class="inline-block w-full px-8 py-4 text-lg font-bold rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-lg shadow-purple-500/30 transition-all mb-4">
-                Download Ebook (PDF)
-            </a>
-            
-            <p class="text-sm text-gray-500 mt-4">
-                If your download does not start automatically, click the button above.
-            </p>
-        </div>
-    </main>
+<h1>Payment Successful 🎉</h1>
 
-    <footer class="bg-gray-950 py-6 border-t border-gray-800 text-center">
-        <p class="text-xs text-gray-600">Copyright © 2026 Prodexia. All rights reserved. [cite: 4, 5]</p>
-    </footer>
+<p>Your ebook is ready to download.</p>
 
-    <script>
-        // Automatically trigger the download after 2 seconds
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                const downloadLink = document.getElementById('downloadBtn');
-                if (downloadLink) {
-                    downloadLink.click();
-                }
-            }, 2000);
-        });
-    </script>
+<a href="AI Creator Playbook.pdf" download>
+<button style="padding:15px 30px;font-size:18px">
+Download Ebook
+</button>
+</a>
+
 </body>
 </html>
